@@ -70,7 +70,6 @@ footer P {
   font-size: 16px;
   line-height: 24px;
   opacity: 0.7;
-  margin-right: 20px;
 }
 footer li {
   list-style: none;
@@ -84,12 +83,13 @@ footer a {
   opacity: 0.7;
 }
 section {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 55px;
 }
 
 @media (max-width: 960px) {
